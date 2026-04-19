@@ -40,7 +40,7 @@ if "doc_text" not in st.session_state:
     st.session_state.doc_text = ""
 
 # --- 3. UI LAYOUT ---
-st.markdown('<h1 class="main-title">Voice AI Pad</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="main-title">AI Speech To Text Pad</h1>', unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #AD1457; font-weight:bold;'>Task 16 | Okoro Kelechi Clinton | 20231401932 .</p>", unsafe_allow_html=True)
 
 lang_options = {"English": "en-US", "French": "fr-FR", "Igbo": "ig-NG"}
